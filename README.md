@@ -22,9 +22,12 @@ En este programa se busca crear una especie de formulario donde el cliente pueda
 2. Iniciar sesión
     
     2.1 Si contraseña correcta
-       2.1.1 Pasar a la interfaz de usuario
+      
+    - 2.1.1 Pasar a la interfaz de usuario
+       
     2.2 Si contraseña incorrecta
-       2.2.1 Regresar a 2.1
+      
+    - 2.2.1 Regresar a 2.1
         
 (Una vez en la interfaz de usuario)
 
@@ -33,24 +36,45 @@ En este programa se busca crear una especie de formulario donde el cliente pueda
 4. Invitar al cliente a ordenar un Wok
 
     4.1 Si cliente acepta
-       4.1.1 Dirigir a las opciones de comida
+    
+      - 4.1.1 Dirigir a las opciones de comida
+       
     4.2 Si cliente rechaza
-        4.2.1 Cerrar ventana
-        4.2.2 Mandar a la interfaz de usuario
-        4.2.3 Esperar que de clic en opciones de comida
-            4.2.3.1 Si cliente no hace clic en nada
-            4.2.3.2 Hacer una encuesta de satisfacción
+    
+      - 4.2.1 Cerrar ventana
+      
+      - 4.2.2 Mandar a la interfaz de usuario
+      
+      - 4.2.3 Esperar que de clic en opciones de comida
+      
+        - 4.2.3.1 Si cliente no hace clic en nada
+           
+        - 4.2.3.2 Hacer una encuesta de satisfacción
+            
 (En las opciones de comida)
+
 5. Desplegar todos los tipos de pasta
+
 6. Desplegar tipos de proteína
+
 7. Desplegar tipo de verdura
+
 8. Desplegar tipo de aderezo
+
 9. Mostrar botón de listo
+
     9.1 Si cliente da clic en "listo"
-        9.1.1 Entonces mostrar precio
-        9.1.2 Preguntar si confirma su orden
-            9.1.2.1 Si confirma
-                9.1.2.1.1 Preguntar información de la tarjeta o forma de pago
-                9.1.2.1.2 Mostrar QR para la entrega
-            9.1.2.2 Si rechaza
-                9.1.2.2.1 Regresar a las opciones de comida
+    
+      - 9.1.1 Entonces mostrar precio
+        
+      - 9.1.2 Preguntar si confirma su orden
+        
+        - 9.1.2.1 Si confirma
+            
+          - 9.1.2.1.1 Preguntar información de la tarjeta o forma de pago
+                
+           - 9.1.2.1.2 Mostrar QR para la entrega
+                
+         - 9.1.2.2 Si rechaza
+            
+            - 9.1.2.2.1 Regresar a las opciones de comida
