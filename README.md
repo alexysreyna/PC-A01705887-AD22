@@ -20,15 +20,20 @@ En este programa se busca crear una especie de formulario donde el cliente pueda
 ## Algoritmo
 1. Abrir la aplicación
 2. Iniciar sesión
+    
     2.1 Si contraseña correcta
-        2.1.1 Pasar a la interfaz de usuario
+       2.1.1 Pasar a la interfaz de usuario
     2.2 Si contraseña incorrecta
-        2.2.1 Regresar a 2.1
+       2.2.1 Regresar a 2.1
+        
 (Una vez en la interfaz de usuario)
+
 3. Mostrar nombre del cliente
+
 4. Invitar al cliente a ordenar un Wok
+
     4.1 Si cliente acepta
-        4.1.1 Dirigir a las opciones de comida
+       4.1.1 Dirigir a las opciones de comida
     4.2 Si cliente rechaza
         4.2.1 Cerrar ventana
         4.2.2 Mandar a la interfaz de usuario
