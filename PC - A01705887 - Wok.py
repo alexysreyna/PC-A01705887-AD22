@@ -26,6 +26,7 @@ print("¿Usted desea ordenar un Wok?")
 #Es parte de una despedida predeterminada de la interfaz.
 def goodday():
      print("¡Qué tengas un buen día!")
+     return goodday
 
 #Se define la función cuenta total que nos ayudará a que el usuario sepa cuánto dinero debe pagar.
 def cuentatotal ():
@@ -35,6 +36,7 @@ def cuentatotal ():
     print("Sin bebida - 0")
     print("Agua - 1")
     print("Refresco - 2")
+    
 
 #Se separan las bebidas y los Woks para poder imprimir mensajes distintos con el precio.
     artfinal = int(input("Wok sencillo o preparado: "))
@@ -68,6 +70,7 @@ def retro():
         print("Nos hace felices saber que tu Wok te gustó, ¡vuelve pronto!")
     else:
         print("No podemos comprender tu calificación")
+        return retro
      
 #Se define la función elegir, ya que por medio de esta elección de condicionales podremos saber lo que el usuario quiere.
 #Se le muestran varias opciones y mediante el uso de números enteros el usuario selecciona lo que desea.
@@ -118,6 +121,7 @@ def elegir():
         print("Por favor elige entre 1 y 2")
 
 elegir()
+
 
 #Se finaliza la interacción con el usuario y se utiliza una función de despedida que ya había sido previamente definida.
 print("La aplicación de Wok sigue en desarrollo")
