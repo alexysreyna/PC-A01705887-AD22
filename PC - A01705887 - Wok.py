@@ -125,6 +125,7 @@ elegir()
 
 #Se finaliza la interacción con el usuario y se utiliza una función de despedida que ya había sido previamente definida.
 print("La aplicación de Wok sigue en desarrollo")
+print("Pronto se incluirán todos los ingredientes para los Woks sencillos")
     
 
 #El programa sigue en desarrollo, se piensan agregar todos los ingredientes para el Wok sencillo, así como ciclos
