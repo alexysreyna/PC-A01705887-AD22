@@ -77,7 +77,7 @@ def retro():
 #En los condicionales se usa el doble igual para indicar que si el valor es "tal", se debe ejecutar cierta acción.
 #Adicionalmente, se crean variables como: select, wokprep y tipowok para facilitar el proceso.
 def elegir():
-    print("Presiona 1 para sí y 2 para no")
+    print("A continuación escoge 1 para seguir y 2 para salir")
     select = int(input())
     if select == 1:
         print("Redireccionando a la página de selección")
@@ -120,13 +120,21 @@ def elegir():
     else:
         print("Por favor elige entre 1 y 2")
 
+    num = int(input("Elige 1 para volver a pedir y 2 para salir: "))
+
+#Se usa un ciclo while para permitirle al usuario pedir otro Wok
+#Asimismo, se le da la opción de terminar su orden
+    while num == 1:
+         elegir()
+#Se apoya de un condicional para insertar un break y romper con el ciclo.
+         if False:
+#Se utiliza un break para romper el ciclo cuando se selecciona 2
+              break
+
 elegir()
 
-
-#Se finaliza la interacción con el usuario y se utiliza una función de despedida que ya había sido previamente definida.
+print("Gracias por tu preferencia, espera próximas noticias")
 print("La aplicación de Wok sigue en desarrollo")
-print("Pronto se incluirán todos los ingredientes para los Woks sencillos")
-    
 
 #El programa sigue en desarrollo, se piensan agregar todos los ingredientes para el Wok sencillo, así como ciclos
 #Y otras opciones, conforme se vayan aprendiendo/repasando en clase.
