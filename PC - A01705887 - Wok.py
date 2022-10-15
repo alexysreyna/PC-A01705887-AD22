@@ -297,3 +297,4 @@ print("Gracias por tu preferencia, espera próximas noticias")
 print("La aplicación de Wok sigue en desarrollo")
 
 #¡Se ha avanzado de una manera considerable, sin embargo, siempre se puede mejorar! (:
+#El programa ya casi está listo :D
