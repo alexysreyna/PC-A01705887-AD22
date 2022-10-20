@@ -1,0 +1,21 @@
+Sub-Competencia: 
+	Componente : Usa operadores aritméticos de manera eficaz.
+		(Avance 2)
+
+Error original: No había operadores aritméticos en el código.
+
+Cambio realizado: Usé operadores aritméticos en una función para sacar el precio final (suma y producto). También, ocupé operadores de comparación y lógicos.
+
+Líneas de código donde se ve la corrección: (Operadores aritméticos: A lo largo de las líneas 189 a 225), (Operadores de comparación: 241 a 247) y (Operadores lógicos: 92, 116, 122, 143,  146 y 164)
+
+==================================================================================================================================
+
+Sub-Competencia: 
+	Componente : Usa la forma más apropiada al problema para guardar los datos (listas, variables, tipo de dato, etc.) - Listas anidadas. 
+		(Avance 7)
+
+Error original: Había platicado con el profesor y él me recomendó que para no forzar el código, entonces no incluyera las matrices.
+
+Cambio realizado: No obstante, encontré que podía agregarlas en una parte para acortar líneas y facilitar la impresión de ciertos datos y valores.
+
+Líneas de código donde se ve la corrección: La matriz se encuentra en la línea 12, mientras que su impresión con ciclo for está en la línea 20 y 21.
